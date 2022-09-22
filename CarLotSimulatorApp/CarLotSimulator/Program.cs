@@ -61,6 +61,8 @@ namespace CarLotSimulator
             //At the end iterate through the list printing each of car's Year, Make, and Model to the
             //
 
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
+
             foreach(var car in lot.Cars)
             {
                 Console.WriteLine($"{car.Year} Make: {car.Make} Model: {car.Model}");
